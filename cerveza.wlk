@@ -66,10 +66,9 @@
  }
 
  object distribuidora {
- 	var property pedidos [pedidoA, pedidoB, pedidoC]
- 	method 
+ 	var property pedidos = [pedidoA, pedidoB, pedidoC]
+ 	method totalFacturado()  sum(costoTotal.pedidos())
  }
-
 
 
 
